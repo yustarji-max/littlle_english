@@ -18,7 +18,7 @@
 .feedback.good{background:#e1f7e5;border-color:#3fa964;color:#155d2a}
 .feedback.bad{background:#fff2de;border-color:#e5a13c;color:#78480a}
 .feedbackheard{margin-top:9px;padding:8px 10px;border-radius:9px;background:#ffffffa8;font-size:14px;font-weight:700}
-</style></head><body><main><div class="top"><div><div class="eyebrow">GROW UP IN ENGLISH</div><div class="brand">little english <span aria-hidden="true">🌱</span></div><div class="versiontag">v0.9.6 · 2026.11.23</div></div><div class="age"><small>Speaking age · confirmed practice</small><strong id="age">1.0 years</strong></div></div><div class="progress"><div id="bar"></div></div><section class="navpanel" aria-label="会話の操作"><div class="navtitle">会話の操作 · 迷ったらここ</div><div class="navgrid"><button class="btn secondary" id="backscene">← 前の場面</button><button class="btn secondary" id="repeatscene">↻ 最初から聞く</button><button class="btn secondary" id="replayline">🔊 今の言葉を聞く</button><button class="btn primary" id="forwardscene">次の場面 →</button></div><div class="navcounter" id="navcounter"></div><p class="navhelp">「最初から聞く」で家族の会話をやり直せます。「前の場面」「次の場面」はいつでも使えます。</p></section><div class="chapter" id="chapter">DAY 1 · AT HOME</div><section class="scene"><div class="art" id="art"><div class="window"></div><div class="rug"></div><div class="table"></div><div class="person"><div class="head"><div class="hair" id="hair"></div><div class="eyes"><span class="eye"></span><span class="eye"></span></div><div class="smile"></div></div><div class="body" id="shirt"></div></div><div class="object" id="object">🍎</div><div class="roomlabel" id="room">Living room</div><div class="ambient" id="ambient">☀️ A quiet morning</div></div><div class="content"><div class="familytalk"><div class="talkhead">🏠 LIFE AROUND YOU <button id="playfamily" class="talkplay">▶ Start / Next line</button></div><div id="chatter" class="chatter"></div><div id="flowguide" class="flowguide">Tap “Hear the family” to start the conversation.</div></div><div class="turntag" id="turntag">👂 First, listen to your family</div><div class="speaker" id="speaker">MOM</div><div class="line" id="line">Look! An apple.</div><div class="actions"><button class="btn secondary" id="listen">🔊 Listen</button><button class="btn primary" id="speak">🎤 Speak</button></div><div class="micpanel" id="micpanel" role="status" aria-live="polite"><div class="micorb" aria-hidden="true">🎤</div><div class="micwords"><div class="mictitle" id="mictitle">Listening…</div><div class="micsub" id="micsub">Speak now</div></div></div><div class="choice" id="choices"></div><div class="status" id="status" role="status" aria-live="polite">Listen, look, and try to speak. It's okay to take your time.</div><button class="hint hidden" id="hint">❔ Need a little help?</button><div class="modal hidden" id="help"></div><button class="btn primary advance hidden" id="next">Continue →</button></div></section><div class="bottom"><div class="sectiontitle">Your family</div><div class="family" id="family"></div><p class="note">Listen to the family talking to each other, not only to you. These are scripted scenes, not live AI conversations. You can listen as often as you like. Japanese appears only if you ask for help. Speech recognition checks the words it heard, not precise pronunciation. Speaking progress increases only after you confirm what the microphone heard. Choice taps and scene navigation do not increase speaking age. Progress is stored on this device.</p></div></main><script>
+</style></head><body><main><div class="top"><div><div class="eyebrow">GROW UP IN ENGLISH</div><div class="brand">little english <span aria-hidden="true">🌱</span></div><div class="versiontag">v0.9.7 · 2026.11.23</div></div><div class="age"><small>Speaking age · confirmed practice</small><strong id="age">1.0 years</strong></div></div><div class="progress"><div id="bar"></div></div><section class="navpanel" aria-label="会話の操作"><div class="navtitle">会話の操作 · 迷ったらここ</div><div class="navgrid"><button class="btn secondary" id="backscene">← 前の場面</button><button class="btn secondary" id="repeatscene">↻ 最初から聞く</button><button class="btn secondary" id="replayline">🔊 今の言葉を聞く</button><button class="btn primary" id="forwardscene">次の場面 →</button></div><div class="navcounter" id="navcounter"></div><p class="navhelp">「最初から聞く」で家族の会話をやり直せます。「前の場面」「次の場面」はいつでも使えます。</p></section><div class="chapter" id="chapter">DAY 1 · AT HOME</div><section class="scene"><div class="art" id="art"><div class="window"></div><div class="rug"></div><div class="table"></div><div class="person"><div class="head"><div class="hair" id="hair"></div><div class="eyes"><span class="eye"></span><span class="eye"></span></div><div class="smile"></div></div><div class="body" id="shirt"></div></div><div class="object" id="object">🍎</div><div class="roomlabel" id="room">Living room</div><div class="ambient" id="ambient">☀️ A quiet morning</div></div><div class="content"><div class="familytalk"><div class="talkhead">🏠 LIFE AROUND YOU <button id="playfamily" class="talkplay">▶ Start / Next line</button></div><div id="chatter" class="chatter"></div><div id="flowguide" class="flowguide">Tap “Hear the family” to start the conversation.</div></div><div class="turntag" id="turntag">👂 First, listen to your family</div><div class="speaker" id="speaker">MOM</div><div class="line" id="line">Look! An apple.</div><div class="actions"><button class="btn secondary" id="listen">🔊 Listen</button><button class="btn primary" id="speak">🎤 Speak</button></div><div class="micpanel" id="micpanel" role="status" aria-live="polite"><div class="micorb" aria-hidden="true">🎤</div><div class="micwords"><div class="mictitle" id="mictitle">Listening…</div><div class="micsub" id="micsub">Speak now</div></div></div><div class="choice" id="choices"></div><div class="status" id="status" role="status" aria-live="polite">Listen, look, and try to speak. It's okay to take your time.</div><button class="hint hidden" id="hint">❔ Need a little help?</button><div class="modal hidden" id="help"></div><button class="btn primary advance hidden" id="next">Continue →</button></div></section><div class="bottom"><div class="sectiontitle">Your family</div><div class="family" id="family"></div><p class="note">Listen to the family talking to each other, not only to you. These are scripted scenes, not live AI conversations. You can listen as often as you like. Japanese appears only if you ask for help. Speech recognition checks the words it heard, not precise pronunciation. Speaking progress increases only after you confirm what the microphone heard. Choice taps and scene navigation do not increase speaking age. Progress is stored on this device.</p></div></main><script>
 (()=>{'use strict';
 const $=id=>document.getElementById(id);
 const scenes=[
@@ -90,23 +90,26 @@ function micState(state){const panel=$('micpanel');panel.className='micpanel'+(s
 function stopRecording(){micState('');recordSession++;recording=false;clearTimeout(recordTimer);$('speak').disabled=false;$('speak').textContent='🎤 Speak';const r=recognition;recognition=null;if(r){r.onend=null;r.onerror=null;r.onresult=null;try{r.abort()}catch(e){}}}
 function clearPending(){pendingSpeech='';const el=document.getElementById('speechconfirm');if(el)el.remove()}
 function showConfirmation(t){clearPending();pendingSpeech=t;const box=document.createElement('div');box.id='speechconfirm';box.className='modal';const label=document.createElement('div');label.textContent='マイクが認識した言葉： '+t;label.style.fontWeight='700';const note=document.createElement('p');note.textContent='本当にこの言葉を話しましたか？ 話していなければ「違う」を選んでください。';const yes=document.createElement('button');yes.className='btn primary';yes.textContent='✓ この言葉を話した → 判定';yes.onclick=()=>{const v=pendingSpeech;clearPending();if(v)answer(v,false)};const no=document.createElement('button');no.className='btn secondary';no.style.marginLeft='8px';no.textContent='違う・もう一度';no.onclick=()=>{clearPending();setStatus('採点しませんでした。Speakで再挑戦してください。','')};box.append(label,note,yes,no);$('status').after(box);setStatus('音声を認識しました。確認するまで採点・成長はしません。','')}
-let micRestartAfter=0, micBusy=false;
+// v0.9.7: one recognition session at a time; let Safari end naturally.
+let micBusy=false, micEndingTimer=null;
 $('speak').onclick=()=>{
  if(recording){if(recognition&&recognition.finishNow)recognition.finishNow();return}
- if(micBusy){setStatus('前のマイクを終了しています。少しお待ちください。','');return}
+ if(micBusy){setStatus('マイクを終了しています。少し待ってから再度押してください。','');return}
  clearPending();
  const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
  if(!SR){setStatus('このSafariでは音声認識が利用できません。','bad');return}
+ // Do not synthesize or play audio while microphone recognition is running.
  try{speechSynthesis.cancel()}catch(e){}
  const r=new SR(),session=++recordSession;
  recognition=r;recording=true;micBusy=true;
  r.lang='en-US';r.interimResults=true;r.maxAlternatives=3;r.continuous=false;
- $('speak').textContent='✓ 話し終わった';micState('waiting');setStatus('マイクを起動しています…','');
- let finalText='',interimText='',bestAlternative='',settleTimer=null,watchdog=null,stopping=false,ended=false,errorCode='';
+ $('speak').textContent='■ 話し終わった';micState('waiting');setStatus('マイクを起動しています…','');
+ let finalText='',interimText='',bestAlternative='',ended=false,stopping=false,errorCode='';
+ let timer=null,hardTimer=null;
  const active=()=>session===recordSession&&!ended;
- function close(){
+ function finish(){
   if(!active())return;
-  ended=true;clearTimeout(settleTimer);clearTimeout(watchdog);clearTimeout(recordTimer);recordTimer=null;
+  ended=true;clearTimeout(timer);clearTimeout(hardTimer);clearTimeout(micEndingTimer);micEndingTimer=null;
   recording=false;micBusy=false;recognition=null;micState('');
   $('speak').disabled=false;$('speak').textContent='🎤 Speak';
   const heard=bestAlternative||finalText||interimText;
@@ -116,14 +119,13 @@ $('speak').onclick=()=>{
  }
  function requestStop(){
   if(!active()||stopping)return;
-  stopping=true;clearTimeout(settleTimer);micState('processing');setStatus('聞き取った英語を確定しています…','');
-  try{r.stop()}catch(e){errorCode='stop-failed'}
-  // Do not start a new recognition until Safari fires onend.
-  // If Safari never fires onend, recover the UI and explicitly abort the stuck engine.
-  watchdog=setTimeout(()=>{if(!active())return;try{r.abort()}catch(e){}setTimeout(()=>{if(active()){errorCode=errorCode||'終了通知がありません。Safariを再読み込みしてください。';close()}},800)},4000);
+  stopping=true;clearTimeout(timer);micState('processing');setStatus('聞き取りを終了しています…','');
+  try{r.stop()}catch(e){errorCode=e.message||'stop-failed'}
+  // The recognizer is released only after Safari calls onend. A fallback
+  // recovers the interface if the browser omits that event.
+  hardTimer=setTimeout(()=>{if(!active())return;try{r.abort()}catch(e){};micEndingTimer=setTimeout(()=>{if(active()){errorCode=errorCode||'Safariの終了通知がありません';finish()}},1200)},3500);
  }
  r.finishNow=requestStop;
- function schedule(ms){if(stopping)return;clearTimeout(settleTimer);settleTimer=setTimeout(requestStop,ms)}
  r.onstart=()=>{if(active()){micState('listening');setStatus('🔴 聞き取り中。英語を話してください。','')}};
  r.onaudiostart=()=>{if(active()&&!stopping)micState('listening')};
  r.onspeechstart=()=>{if(active()&&!stopping)micState('listening')};
@@ -137,13 +139,15 @@ $('speak').onclick=()=>{
   }
   if(f.trim())finalText=f.trim();interimText=i.trim();
   const heard=bestAlternative||finalText||interimText;
-  if(heard){$('mictitle').textContent='🎤 '+heard;$('micsub').textContent='聞き取っています';setStatus('聞き取り: '+heard,'');if(!stopping)schedule(finalText?600:1600)}
+  if(heard){$('mictitle').textContent='🎤 '+heard;$('micsub').textContent='認識中';setStatus('聞き取り: '+heard,'')}
+  // IMPORTANT: do not stop the recognizer on a timer after onresult.
+  // Safari should complete a non-continuous recognition on its own.
  };
- r.onspeechend=()=>{if(active()&&!stopping&&(finalText||interimText))schedule(600)};
- r.onend=()=>close();
+ r.onspeechend=()=>{if(active()&&!stopping){micState('processing');setStatus('話し終わりを確認中…（止まったら「話し終わった」を押す）','')}};
+ r.onend=()=>finish();
  r.onerror=e=>{if(!active())return;errorCode=e.error||'unknown';if(errorCode==='aborted'&&stopping)errorCode='';if(!stopping)requestStop()};
- recordTimer=setTimeout(()=>{if(active())requestStop()},12000);
- try{r.start()}catch(e){errorCode=e.message||String(e);close()}
+ timer=setTimeout(()=>{if(active())requestStop()},10000);
+ try{r.start()}catch(e){errorCode=e.message||String(e);finish()}
 };
 function goScene(delta){index=(index+delta+scenes.length)%scenes.length;reset();save();update();}
 $('backscene').onclick=()=>{if(index>0)goScene(-1)};
